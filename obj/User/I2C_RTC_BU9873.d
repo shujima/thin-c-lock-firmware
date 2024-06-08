@@ -1,1 +1,0 @@
-User/I2C_RTC_BU9873.o: ../User/I2C_RTC_BU9873.c
