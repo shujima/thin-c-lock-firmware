@@ -54,9 +54,9 @@ int tick()
         now.min -= 60;
         now.hour ++;
     }
-    if(now.hour >= 24)
+    if(now.hour >= 12)
     {
-        now.hour -= 24;
+        now.hour -= 12;
         now.day ++;
     }
     if(now.month == 2)
